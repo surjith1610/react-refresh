@@ -2,6 +2,7 @@
 
 import UseStateHook from "./UseStateHook";
 import User from "./User";
+import UseEffectHook from "./useEffectHook";
 
 function App(){
   const userData = {
@@ -16,7 +17,8 @@ function App(){
     {/* Also i can add extra variables here and update the existing one's */}
     {/* <User {...{ ...userData, address: "address", age:56 }} /> */}
 
-    <UseStateHook />
+    {/* <UseStateHook /> */}
+    <UseEffectHook />
     </>
 }
 
