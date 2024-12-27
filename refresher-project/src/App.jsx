@@ -1,5 +1,6 @@
 // Sample Component
 
+import UseStateHook from "./UseStateHook";
 import User from "./User";
 
 function App(){
@@ -13,7 +14,9 @@ function App(){
   // Using react fragment to return multiple elements
     return <>
     {/* Also i can add extra variables here and update the existing one's */}
-    <User {...{ ...userData, address: "address", age:56 }} />
+    {/* <User {...{ ...userData, address: "address", age:56 }} /> */}
+
+    <UseStateHook />
     </>
 }
 
