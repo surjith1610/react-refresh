@@ -1,12 +1,19 @@
 // Sample Component
 
+import User from "./User";
+
 function App(){
+  const userData = {
+    name: "John Doe",
+    age: 25,
+    email: "sample@gmail.com",
+    phone_number: "1234567890"
+  }
+
   // Using react fragment to return multiple elements
     return <>
-    <h1>Hello World</h1>
-    <h2>Hi World</h2>
-    <h3>Hey World</h3>
-    <p>Hi this is a sentence</p>
+    {/* Also i can add extra variables here and update the existing one's */}
+    <User {...{ ...userData, address: "address", age:56 }} />
     </>
 }
 
