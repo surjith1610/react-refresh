@@ -3,6 +3,7 @@
 import UseCallbackHook from "./UseCallbackHook";
 import UseContextHook from "./UseContextHook";
 import UseMemoHook from "./UseMemoHook";
+import UseReducerHook from "./UseReducerHook";
 import UseRefHook from "./UseRefHook";
 import UseStateHook from "./UseStateHook";
 import User from "./User";
@@ -28,7 +29,8 @@ function App(){
     {/* <UseRefHook /> */}
     {/* <UseMemoHook /> */}
     {/* <UseCallbackHook /> */}
-    <UseContextHook />
+    {/* <UseContextHook /> */}
+    <UseReducerHook />
 
     </>
 }
