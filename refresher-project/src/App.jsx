@@ -1,5 +1,6 @@
 // Sample Component
 
+import UseMemoHook from "./UseMemoHook";
 import UseRefHook from "./UseRefHook";
 import UseStateHook from "./UseStateHook";
 import User from "./User";
@@ -20,7 +21,8 @@ function App(){
 
     {/* <UseStateHook /> */}
     {/* <UseEffectHook /> */}
-    <UseRefHook />
+    {/* <UseRefHook /> */}
+    <UseMemoHook />
 
     </>
 }
