@@ -1,6 +1,7 @@
 // Sample Component
 
-// import UseLayoutEffectHook from "./useLayoutEffectHook";
+import UseLayoutEffectHook from "./useLayoutEffectHook";
+import FunctionBasedSample from "./FunctionBasedSample";
 import { ReactRouterDemo } from "./ReactRouterDemo";
 import UseCallbackHook from "./UseCallbackHook";
 import UseContextHook from "./UseContextHook";
@@ -10,6 +11,8 @@ import UseRefHook from "./UseRefHook";
 import UseStateHook from "./UseStateHook";
 import User from "./User";
 import UseEffectHook from "./useEffectHook";
+import ClassBasedSample from "./ClassBasedSample";
+
 
 
 
@@ -34,7 +37,9 @@ function App(){
     {/* <UseContextHook /> */}
     {/* <UseReducerHook /> */}
     {/* <UseLayoutEffectHook /> */}
-    <ReactRouterDemo />
+    {/* <ReactRouterDemo /> */}
+    {/* <FunctionBasedSample /> */}
+    <ClassBasedSample />
 
     </>
 }
