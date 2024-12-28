@@ -1,5 +1,6 @@
 // Sample Component
 
+import UseLayoutEffectHook from "./useLayoutEffectHook";
 import UseCallbackHook from "./UseCallbackHook";
 import UseContextHook from "./UseContextHook";
 import UseMemoHook from "./UseMemoHook";
@@ -30,7 +31,8 @@ function App(){
     {/* <UseMemoHook /> */}
     {/* <UseCallbackHook /> */}
     {/* <UseContextHook /> */}
-    <UseReducerHook />
+    {/* <UseReducerHook /> */}
+    <UseLayoutEffectHook />
 
     </>
 }
