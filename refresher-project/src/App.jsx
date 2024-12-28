@@ -1,6 +1,7 @@
 // Sample Component
 
-import UseLayoutEffectHook from "./useLayoutEffectHook";
+// import UseLayoutEffectHook from "./useLayoutEffectHook";
+import { ReactRouterDemo } from "./ReactRouterDemo";
 import UseCallbackHook from "./UseCallbackHook";
 import UseContextHook from "./UseContextHook";
 import UseMemoHook from "./UseMemoHook";
@@ -32,7 +33,8 @@ function App(){
     {/* <UseCallbackHook /> */}
     {/* <UseContextHook /> */}
     {/* <UseReducerHook /> */}
-    <UseLayoutEffectHook />
+    {/* <UseLayoutEffectHook /> */}
+    <ReactRouterDemo />
 
     </>
 }
