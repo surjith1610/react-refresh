@@ -1,10 +1,13 @@
 // Sample Component
 
+import UseCallback from "./UseCallback";
 import UseMemoHook from "./UseMemoHook";
 import UseRefHook from "./UseRefHook";
 import UseStateHook from "./UseStateHook";
 import User from "./User";
 import UseEffectHook from "./useEffectHook";
+
+
 
 function App(){
   const userData = {
@@ -22,7 +25,8 @@ function App(){
     {/* <UseStateHook /> */}
     {/* <UseEffectHook /> */}
     {/* <UseRefHook /> */}
-    <UseMemoHook />
+    {/* <UseMemoHook /> */}
+    <UseCallback />
 
     </>
 }
