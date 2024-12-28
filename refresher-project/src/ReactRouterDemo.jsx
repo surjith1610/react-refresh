@@ -6,6 +6,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Employee from './pages/Employee'
 import Navbar from './components/Navbar'
+import { ErrorPage } from './pages/Error'
 
 export const ReactRouterDemo = () => {
   return (
@@ -16,6 +17,7 @@ export const ReactRouterDemo = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/employee" element={<Employee />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
    </BrowserRouter>
   )
