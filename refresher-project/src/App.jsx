@@ -12,6 +12,8 @@ import UseStateHook from "./UseStateHook";
 import User from "./User";
 import UseEffectHook from "./useEffectHook";
 import ClassBasedSample from "./ClassBasedSample";
+import ProtectedRoutes from "./ProtectedRoutes";
+import ReduxDemo from "./ReduxDemo";
 
 
 
@@ -39,7 +41,9 @@ function App(){
     {/* <UseLayoutEffectHook /> */}
     {/* <ReactRouterDemo /> */}
     {/* <FunctionBasedSample /> */}
-    <ClassBasedSample />
+    {/* <ClassBasedSample /> */}
+    {/* <ProtectedRoutes /> */}
+    <ReduxDemo />
 
     </>
 }
