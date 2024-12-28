@@ -1,6 +1,7 @@
 // Sample Component
 
-import UseCallback from "./UseCallback";
+import UseCallbackHook from "./UseCallbackHook";
+import UseContextHook from "./UseContextHook";
 import UseMemoHook from "./UseMemoHook";
 import UseRefHook from "./UseRefHook";
 import UseStateHook from "./UseStateHook";
@@ -26,7 +27,8 @@ function App(){
     {/* <UseEffectHook /> */}
     {/* <UseRefHook /> */}
     {/* <UseMemoHook /> */}
-    <UseCallback />
+    {/* <UseCallbackHook /> */}
+    <UseContextHook />
 
     </>
 }

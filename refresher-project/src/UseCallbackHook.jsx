@@ -2,7 +2,7 @@ import React from 'react'
 import { useCallback } from 'react';
 import List from './List';
 
-function UseCallback() {
+function UseCallbackHook() {
     const [number, setNumber] = React.useState(0);
     const [dark, setDark] = React.useState(false);
 
@@ -23,4 +23,4 @@ function UseCallback() {
   )
 }
 
-export default UseCallback
+export default UseCallbackHook
