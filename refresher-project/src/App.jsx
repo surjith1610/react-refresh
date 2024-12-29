@@ -14,6 +14,7 @@ import UseEffectHook from "./useEffectHook";
 import ClassBasedSample from "./ClassBasedSample";
 import ProtectedRoutes from "./ProtectedRoutes";
 import ReduxDemo from "./ReduxDemo";
+import HOC from "./HOC";
 
 
 
@@ -43,7 +44,8 @@ function App(){
     {/* <FunctionBasedSample /> */}
     {/* <ClassBasedSample /> */}
     {/* <ProtectedRoutes /> */}
-    <ReduxDemo />
+    {/* <ReduxDemo /> */}
+    <HOC />
 
     </>
 }
