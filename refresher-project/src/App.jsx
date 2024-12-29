@@ -16,6 +16,7 @@ import ProtectedRoutes from "./ProtectedRoutes";
 import ReduxDemo from "./ReduxDemo";
 import HOC from "./HOC";
 import ApiCall from "./ApiCall";
+import ReactQueryDemo from "./ReactQueryDemo";
 
 
 
@@ -47,7 +48,8 @@ function App(){
     {/* <ProtectedRoutes /> */}
     {/* <ReduxDemo /> */}
     {/* <HOC /> */}
-    <ApiCall />
+    {/* <ApiCall /> */}
+    <ReactQueryDemo />
 
     </>
 }
