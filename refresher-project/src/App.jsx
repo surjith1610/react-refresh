@@ -43,9 +43,9 @@ function App(){
     {/* <ReactRouterDemo /> */}
     {/* <FunctionBasedSample /> */}
     {/* <ClassBasedSample /> */}
-    {/* <ProtectedRoutes /> */}
+    <ProtectedRoutes />
     {/* <ReduxDemo /> */}
-    <HOC />
+    {/* <HOC /> */}
 
     </>
 }
