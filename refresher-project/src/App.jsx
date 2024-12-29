@@ -15,6 +15,7 @@ import ClassBasedSample from "./ClassBasedSample";
 import ProtectedRoutes from "./ProtectedRoutes";
 import ReduxDemo from "./ReduxDemo";
 import HOC from "./HOC";
+import ApiCall from "./ApiCall";
 
 
 
@@ -43,9 +44,10 @@ function App(){
     {/* <ReactRouterDemo /> */}
     {/* <FunctionBasedSample /> */}
     {/* <ClassBasedSample /> */}
-    <ProtectedRoutes />
+    {/* <ProtectedRoutes /> */}
     {/* <ReduxDemo /> */}
     {/* <HOC /> */}
+    <ApiCall />
 
     </>
 }
